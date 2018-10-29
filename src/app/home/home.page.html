@@ -1,12 +1,15 @@
 <ion-header>
   <ion-toolbar>
     <ion-title>
-      Ionic Blank
+     Social Network
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content padding>
-  The world is your oyster.
-  <p>If you get lost, the <a target="_blank" rel="noopener" href="https://ionicframework.com/docs">docs</a> will be your guide.</p>
+  
+  <div class="topButtons">
+    <ion-button  color="primary" (click)="signIn()">Sign In</ion-button>
+    <ion-button color="primary" (click)="register()">Register</ion-button>
+  </div>
 </ion-content>
